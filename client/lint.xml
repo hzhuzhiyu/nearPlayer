@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="CutPasteId">
+        <ignore path="src/com/threebrother/ebv/activity/NewVisitActivity.java" />
+        <ignore path="src/com/threebrother/ebv/activity/VisitDetailActivity.java" />
+    </issue>
+    <issue id="HandlerLeak" severity="ignore" />
+    <issue id="ViewConstructor">
+        <ignore path="src/com/threebrother/ebv/widgets/PopMenu.java" />
+    </issue>
+</lint>

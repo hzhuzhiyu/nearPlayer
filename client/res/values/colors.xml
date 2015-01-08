@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 通用颜色 -->
+    <color name="cmmn_black">#333333</color>
+    <color name="cmmn_green">#6c9421</color>
+    <color name="cmmn_red">#fa4d4d</color>
+    <color name="cmmn_gray">#666666</color>
+    <color name="text_color">#997565</color>
+    
+    <color name="btn_bg_color">#f6f0ce</color>
+    <color name="btn_bg_f_color">#e6e0be</color>
+     <color name="main_color">#eeeeee</color>
+
+    <!-- textView 字体 -->
+    <color name="hint_color">#a3a3a3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <!-- 对话框tv -->
+    <color name="dlg_tv_color">#3C3C3C</color>
+    <!-- 分割线 -->
+    <color name="divider_color">#d6d6d6</color>
+
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+    <color name="translucence">#88000000</color>
+    <!-- grid的标题 -->
+    <color name="grid_title_color">#424242</color>
+    <!-- 文字颜色 -->
+    <color name="black_text_color">#3C3C3C</color>
+    <!-- 菜单选中 -->
+    <color name="menu_select_color">#A4A4A4</color>
+
+    
+    <!-- drop down list header font color -->
+    <color name="drop_down_list_header_font_color">#515151</color>
+    <!-- drop down list header second font color -->
+    <color name="drop_down_list_header_second_font_color">#515151</color>
+    <!-- drop down list footer font color -->
+    <color name="drop_down_list_footer_font_color">#515151</color>
+</resources>

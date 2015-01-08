@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cmmn_gray" >
+
+    <LinearLayout
+        android:id="@+id/navigation_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="#f0f0f0"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="3dip" >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:src="@drawable/left" />
+
+        <ImageView
+            android:id="@+id/refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/refresh" 
+            android:layout_weight="1"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            />
+
+        <ImageView
+            android:id="@+id/forward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:src="@drawable/right" />
+        
+        <ImageView
+            android:id="@+id/share_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:src="@drawable/share" />
+    </LinearLayout>
+    
+    <WebView
+        android:id="@+id/panel_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/navigation_bar"
+        android:focusableInTouchMode="true" />
+
+    <include 
+        android:id="@+id/loading_ll"
+        layout="@layout/footer_loading"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

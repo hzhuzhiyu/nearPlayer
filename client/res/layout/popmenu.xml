@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/translucence"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/transparent"
+		android:layout_alignParentBottom="true"
+		android:layout_margin="8dp"
+		android:orientation="vertical">
+        
+        <LinearLayout 
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/white"
+		android:orientation="vertical">
+	        <TextView 
+	            android:id="@+id/menu_title_tv"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/awifi_tip"
+	            android:textColor="@color/cmmn_black"
+	            android:textSize="16sp"
+	            android:layout_gravity="center"
+	            android:padding="10dp"
+	            android:background="@color/white"/>
+		 </LinearLayout>
+        	<!-- 分割线 -->
+     	<include layout="@layout/divider_line"/>
+     	
+	    <ListView
+	        android:id="@+id/popmenu_list_view"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:divider="@color/divider_color"
+        	android:dividerHeight="1dp"
+	        android:background="@color/white"
+	        android:cacheColorHint="@color/transparent"
+	        android:listSelector="@color/transparent" >
+	    </ListView>
+    
+	     
+        <TextView 
+            android:id="@+id/menu_cancel_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textColor="@color/cmmn_black"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:padding="12dp"
+            android:background="@color/white"/>
+	    
+    </LinearLayout>
+   
+
+</RelativeLayout>

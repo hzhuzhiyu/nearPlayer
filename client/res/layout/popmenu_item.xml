@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_selector"
+    >
+
+    <TextView
+        android:id="@+id/popmenu_item_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingBottom="12dip"
+        android:paddingTop="12dip"
+        android:text="@string/app_name"
+        android:textColor="@color/cmmn_black"
+        android:textSize="18sp" />
+	<ImageView 
+	    android:id="@+id/choose_iv"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:layout_marginLeft="12dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/popmenu_item_tv"
+        android:scaleType="fitXY"
+        android:src="@drawable/tick"/>
+</RelativeLayout>
